@@ -1,0 +1,28 @@
+ /*Home.css  */
+*{
+   padding: 0;
+   margin: 0;
+}
+ .home_card_1{
+    border: none !important;
+    border-radius: 0 !important;
+ }
+  
+  .home_card_2,.home_card_3{
+    border: none !important;    
+    border-radius: 0 !important;
+   
+    
+ }
+ 
+ /* Product.css */
+ .home_card_3 :hover{
+ background-color: yellow;
+ }
+
+ .products{
+   background-image: url('bg.jpg');
+   background: cover;
+    
+ }
+  
