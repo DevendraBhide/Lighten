@@ -25,4 +25,7 @@
    background: cover;
     
  }
-  
+  .call{
+   vertical-align: baseline;
+   margin-left: 3px;
+  }

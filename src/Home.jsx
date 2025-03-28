@@ -1,6 +1,7 @@
-import React, { use, useState } from 'react'
+import React, { use, useEffect, useState } from 'react'
 
 const Home = () => {
+
   const [data1, setData1] = useState([
     {
       id: 1,
@@ -312,7 +313,7 @@ const Home = () => {
           <br />
           <div className="carousel slide" id='carousel_slide' data-bs-ride="carousel" data-bs-interval='2000' >
             <div className="carousel-indicators my-1">
-              <button type="button" data-bs-target="#carousel_slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+              <button type="button" data-bs-target="#carousel_slide" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1">1</button>
               <button type="button" data-bs-target="#carousel_slide" data-bs-slide-to="1" aria-label="Slide 2" >2</button>
               <button type="button" data-bs-target="#carousel_slide" data-bs-slide-to="2" aria-label="Slide 3">3</button>
             </div>
@@ -336,7 +337,7 @@ const Home = () => {
           </div>
           <div className="container mt-5 bg-warning pb-3 pt-5">
             <div className="row ">
-              <div className="col-md-7 ps-4"><h3 className='text-white fw-bolder'>REQUEST A FREE QUOTE <img src="calll.png" alt="" /></h3>
+              <div className="col-md-7 ps-4"><h3 className='text-white fw-bolder'>REQUEST A FREE QUOTE <img className='call' src="calll.png" alt="" /></h3>
               <p className='fs-5'>Get answers and advice from people you want it from.</p>
               </div>
               <div className="col-md-5 text-center"><button className='btn bg-dark text-light border rounded-pill ' style={{paddingLeft:'100px',paddingRight:'100px'}}><h3>Get Quote </h3></button></div>

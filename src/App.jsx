@@ -6,7 +6,7 @@ import Blog from './Blog';
 import About from './About';
 import Contact from './Contact';
 import Signup from './Signup';
-import Login from './login';
+import Login from './Login';
 import './App.css';
 import Layout from './Layout';
  const App = () => {

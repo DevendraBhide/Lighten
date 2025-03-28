@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
 
@@ -14,11 +15,11 @@ const[data,setData]=useState([
     },{
         id:2,
         name:'ADDITIONAL LINKS',
-        desc1:<a className='text-decoration-none text-white' href='/about'>About us</a>,
+        desc1:<NavLink className='text-decoration-none text-white' to='/about'>About us</NavLink>,
         desc2:'Terms and conditions',
         desc3:'Privacy policy',
         desc4:'News',
-        desc5:<a className='text-decoration-none text-white' href='/contact'>Contact us</a>
+        desc5:<NavLink className='text-decoration-none text-white' to='/contact'>Contact us</NavLink>
     },
     {
         id:3,

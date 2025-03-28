@@ -1,19 +1,49 @@
 {
-  "posts": [
+  "Contact": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "username": "devendra",
+      "useremail": "dbhide7@gmail.com",
+      "userphone": "7834657609",
+      "usermsg": "message"
+    },
+    {
+      "username": "gaurav",
+      "useremail": "g@gmail.com",
+      "userphone": "34257373567",
+      "usermsg": "hi",
+      "id": 2
+    },
+    {
+      "username": "suraj",
+      "useremail": "suraj@gmail.com",
+      "userphone": "9867456754",
+      "usermsg": "hello",
+      "id": 3
     }
+    
   ],
-  "comments": [
+  "Signup": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "devendra",
+      "useremail": "dbhide7@gmail.com",
+      "userpass": "message",
+      "usercontact": "7834657609"
+    },
+    {
+      "username": "raghav",
+      "useremail": "r@gmail.com",
+      "userpass": "raghav",
+      "usercontact": "8709674543",
+      "id": 2
+    },
+    {
+      "username": "gaurav",
+      "useremail": "gaurav@gmail.com",
+      "userpass": "gaurav",
+      "usercontact": "7689654312",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ] 
 }
