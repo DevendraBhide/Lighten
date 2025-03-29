@@ -160,7 +160,11 @@ const Home = () => {
 
     }
   ])
-
+  const headingStyle = {
+    fontSize: window.innerWidth < 768 ? "2rem" : "4rem"
+    // textAlign: "center"
+    
+}
 
 
   return (
@@ -177,7 +181,9 @@ const Home = () => {
             <div className="carousel-item active" data-bs-interval="10000">
               <img src="banner1.jpg" className="d-block w-100" alt="..." />
               <div className="carousel-caption " style={{ position: 'absolute', top: 0 }}>
-                <p className='text-start lh-1' style={{ fontSize: '85px' }}  >OUR <br /><span className='fw-bold'>LATEST </span><br /><span className='text-warning fw-bold'>PRODUCT</span></p>
+                              <p className='text-start lh-1' style={headingStyle}>OUR <br /> <span style={{ fontWeight: "bold" }}>LATEST</span><br /> <span style={{ color: "yellow" }}>PRODUCT</span></p>
+
+{/*                 <p className='text-start lh-1' style={{ fontSize: '85px' }}  >OUR <br /><span className='fw-bold'>LATEST </span><br /><span className='text-warning fw-bold'>PRODUCT</span></p> */}
                 <p className='text-start '> It is a long established fact that a
                   <br /> reader will be distracted by the readable content of a page
                 </p>
